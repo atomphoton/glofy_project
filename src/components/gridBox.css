@@ -1,0 +1,12 @@
+.select{
+text-align: right;
+margin-right: 5%;
+}
+
+.d{
+    text-align: center;
+
+}
+.d#box.active{
+    filter: blur(20px);
+}

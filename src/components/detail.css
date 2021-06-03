@@ -1,0 +1,36 @@
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.detail-box{
+    padding: 5%;
+    text-align: center;
+   box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.detail-box img{
+    margin: 5%;
+    width: 40%;
+    border-radius: 100%;
+}
+.detail-box p{
+    color: salmon;
+    margin: 5%;
+    font-size: 1.6rem;
+}
+.detail-box h1{
+    display: inline;
+    color: salmon;
+    margin: 5%;
+}
+@media only screen and (min-width: 768px) {
+    
+.detail-box img{
+    width: 45%;
+}
+.detail-box{
+    padding: 3%;
+}
+    
+}
